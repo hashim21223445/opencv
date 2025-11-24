@@ -1,6 +1,6 @@
 # Python 3.7.5
-onnx>=1.7.0
-numpy>=1.19.1
+onnx>=1.17.0
+numpy>=1.22.2
 
 torch>=1.5.1
 torchvision>=0.6.1
@@ -13,3 +13,4 @@ paddlepaddle-gpu>=2.0.0
 paddlehub>=2.1.0
 paddle2onnx>=0.5.1
 paddleseg>=2.0.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
